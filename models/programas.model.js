@@ -1,5 +1,5 @@
 const Programa = {
-  id: Number,
+  id_programas: Number,
   nombre: String,
   cuatrimestres: Number
 };

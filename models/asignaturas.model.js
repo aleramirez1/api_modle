@@ -1,6 +1,6 @@
 const Asignatura = {
   id: Number,
-  nombre: String,
+  nombre_asignatura: String,
   cuatrimestre: Number,
   programaId: Number
 };

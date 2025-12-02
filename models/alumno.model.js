@@ -1,6 +1,6 @@
 const Alumno = {
-  id: Number,
-  nombre: String,
+  id_alumno: Number,
+  nombre_alumno: String,
   matricula: String,
   cuatrimestre: Number,
   asignaturaId: Number,

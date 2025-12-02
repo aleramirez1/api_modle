@@ -1,7 +1,7 @@
 const db = require('../config/db');
 
 async function obtener() {
-  const [rows] = await db.query('SELECT * FROM programas');
+  const [rows] = await db.query('SELECT * FROM programa_de_estudio');
   return rows;
 }
 

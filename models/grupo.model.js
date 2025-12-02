@@ -1,9 +1,9 @@
 const Grupo = {
-  id: Number,
-  nombre: String,
-  asignaturaId: Number,
+  id_grupo: Number,
+  nombre_grupo: String,
+  nombre_asignatura: String,
   docenteId: Number,
-  alumnos: Array // lista de alumnos
+  alumnos: Array
 };
 
 module.exports = Grupo;

@@ -1,7 +1,11 @@
+const { cuatrimestre } = require("./alumno.model");
+const { programaId } = require("./asignaturas.model");
+
 const Docente = {
   id: Number,
-  nombre: String,
-  asignaturaId: Number // cada docente imparte una asignatura
+  nombre_asignaturas: String,
+  cuatrimestre: Number,
+  programaId: Number
 };
 
 module.exports = Docente;
